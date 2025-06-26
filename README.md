@@ -26,7 +26,7 @@ The project utilizes NLP techniques, specifically using the **spaCy** library wi
 - Named entity recognition
 - Dependency analysis
 
-<img src="imagenes/FasesNLP.drawio" width="500">
+<img src="imagenes/FasesNLP.drawio.png" width="500">
 
 ### Dialogue Structure Analysis
 
@@ -55,7 +55,7 @@ AFTER: La Madre le ordenó:
 - Identify the subject using noun chunks functionality from spaCy
 - Restructure the sentence placing the speaker first, followed by the verb, and then the dialogue
 
-<img src="imagenes/Caso 1" width="500">
+<img src="imagenes/Caso 1.png" width="500">
 
 **Process:**
 
@@ -85,8 +85,8 @@ This case presents the greatest difficulty as there's no explicit speaker identi
 - Utilize GPT-3.5-turbo model to identify the omitted subject
 - Provide context from previous sentences to the AI model
 
-<img src="imagenes/Caso 2 Metodo 1" width="500">
-<img src="imagenes/Caso 2 Metodo 2" width="500">
+<img src="imagenes/Caso 2 Metodo 1.png" width="500">
+<img src="imagenes/Caso 2 Metodo 2.png" width="500">
 
 
 ## Results and Performance
